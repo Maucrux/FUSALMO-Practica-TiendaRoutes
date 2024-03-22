@@ -1,0 +1,51 @@
+/**/
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: hotpink;
+  flex-direction: row;
+  align-content: center;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-synthesis-weight: inherit;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.features {
+  padding: 3%;
+}
+
+
+nav a.is-active {
+  font-weight: bold;
+  pointer-events: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+} /*/cuando estamos en el enlace desaparece la mano pero se marca en un color diferrete*/
+
+ul {
+  text-decoration: none;
+}
+li {
+  display: flex;
+}
+
+h1,
+h2,
+h5,
+h6,
+p {
+  color: white;
+}

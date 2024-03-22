@@ -1,0 +1,10 @@
+body{
+   background-image: url("/img/fond1.avif");
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
